@@ -1,6 +1,6 @@
 # rf-bluebird
 
-## A simple angular service/provider wrapper for the [bluebird](https://github.com/petkaantonov/bluebird) promise library.
+### A simple angular service/provider wrapper for the [bluebird](https://github.com/petkaantonov/bluebird) promise library.
 
 
 ### Instructions:
@@ -20,7 +20,9 @@
         }])
 
 6. Read the [bluebird API](https://github.com/petkaantonov/bluebird/blob/master/API.md) for more.
+
 ### You should know:
+
 - This provider already hooks in to the $rootScope.asyncEval(), and should not need explicit use of $apply or $digest.
 - bluebird does not use $exceptionHandler and handles errors itself. This could be a good thing.
 - bluebird promises are FAST. See [here](http://jsperf.com/bluebird-vs-rsvp/).
