@@ -21,9 +21,9 @@
 
 6. Read the [bluebird API](https://github.com/petkaantonov/bluebird/blob/master/API.md) for more.
 ### You should know:
-1. This provider already hooks in to the $rootScope.asyncEval(), and should not need explicit use of $apply or $digest.
-2. bluebird does not use $exceptionHandler and handles errors itself. This could be a good thing.
-3. bluebird promises are FAST. See [here](http://jsperf.com/bluebird-vs-rsvp/).
+- This provider already hooks in to the $rootScope.asyncEval(), and should not need explicit use of $apply or $digest.
+- bluebird does not use $exceptionHandler and handles errors itself. This could be a good thing.
+- bluebird promises are FAST. See [here](http://jsperf.com/bluebird-vs-rsvp/).
 
 ### License:
 Whatever the [bluebird](https://github.com/petkaantonov/bluebird) project uses currently.
