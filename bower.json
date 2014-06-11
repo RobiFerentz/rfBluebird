@@ -1,0 +1,28 @@
+{
+  "name": "rf-bluebird",
+  "version": "0.0.1",
+  "authors": [
+    "Robert Ferentz <robiferentz@gmail.com>"
+  ],
+  "description": "A simple wrapper module and service for the bluebird promise library.",
+  "keywords": [
+    "bluebird",
+    "promises",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bluebird": "~2.0.7"
+  },
+  "devDependencies": {
+    "angular": "~1.2.17"
+  }
+}
